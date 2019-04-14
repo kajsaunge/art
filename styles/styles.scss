@@ -1,0 +1,32 @@
+$font-size: 32px;
+
+.container {
+  font-size: $font-size;
+  background-color: pink;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  transition: 1s ease-in-out;
+  &.single {
+    grid-template-columns: 3 auto auto;
+    .item {
+      grid-row-start: 1;
+    }
+  }
+}
+.item {
+  background-color: white;
+  margin: 2px;
+}
+
+.item:first-child {
+  background-color: green;
+}
+.item:last-child {
+  background-color: red;
+}
+.button {
+  background-color: grey;
+  color: white;
+  padding: 6px 10px;
+  font-size: 16px;
+}
