@@ -1,7 +1,6 @@
-A site for my fluffy art. Possibly with dropbox api to handle files, not sure yet.
+# Art collection
 
-
-#Some referenses used to refresh my mind..
+## Some referenses used to refresh my mind..
 Next: https://nextjs.org/learn/basics/getting-started/setup
 
 Scss: https://github.com/zeit/next-plugins/tree/master/packages/next-sass
